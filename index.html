@@ -3,110 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Site</title>
+    <title>My GitHub Pages Site</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-        
-        .container {
-            text-align: center;
-            padding: 40px;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            max-width: 600px;
-        }
-        
-        h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-        
-        p {
-            font-size: 1.2em;
-            margin: 15px 0;
-            line-height: 1.6;
-        }
-        
-        .email {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 10px 20px;
-            border-radius: 10px;
-            display: inline-block;
-            margin: 20px 0;
-            font-weight: bold;
-        }
-        
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 30px;
-            background: rgba(255, 255, 255, 0.9);
-            color: #667eea;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        
-        a:hover {
-            background: white;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-        
-        .features {
-            margin-top: 30px;
-            text-align: left;
-            display: inline-block;
-        }
-        
-        .features li {
-            margin: 10px 0;
-            padding-left: 25px;
-            position: relative;
-        }
-        
-        .features li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #4ade80;
-            font-weight: bold;
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>🚀 Welcome to My Site</h1>
-        <p>This is a GitHub Pages site with a custom 404 error page.</p>
-        
-        <p class="email">
-            Contact: 23f3001237@ds.study.iitm.ac.in
+<body class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 md:p-12 rounded-lg shadow-xl max-w-lg w-full text-center">
+        <h1 class="text-3xl md:text-4xl font-bold text-indigo-600 mb-4">Welcome to My Site</h1>
+        <p class="text-lg text-gray-700 mb-6">
+            This is the main page for my GitHub Pages project.
         </p>
         
-        <ul class="features">
-            <li>Custom 404 error page</li>
-            <li>Responsive design</li>
-            <li>Modern UI/UX</li>
-        </ul>
+        <!-- Link to test the 404 page -->
+        <a href="nonexistent-page.html" class="inline-block bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 mb-6">
+            Test 404 Page
+        </a>
         
-        <a href="/nonexistent-page">🔍 Test 404 Page</a>
+        <!-- Required Email Address -->
+        <footer class="border-t border-gray-200 pt-4 mt-6">
+            <p class="text-sm text-gray-500">
+                Contact: 23f3001237@ds.study.iitm.ac.in
+            </p>
+        </footer>
     </div>
 </body>
 </html>
