@@ -1,56 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found</title>
-    <!-- Load Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
-                },
-            },
-        }
-    </script>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
+  <title>404 - Page Not Found</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 { font-size: 100px; color: #e74c3c; }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen p-4">
-    <div class="bg-white p-8 md:p-12 rounded-lg shadow-xl max-w-lg w-full text-center">
-        <!-- Creative 404 Graphic (Using text/emoji) -->
-        <div class="text-8xl md:text-9xl font-bold text-indigo-600 mb-4">
-            <span>4</span>
-            <span class="inline-block relative">
-                <svg class="w-20 h-20 md:w-24 md:h-24 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
-            </span>
-            <span>4</span>
-        </div>
-
-        <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">Oops! Lost in Cyberspace?</h2>
-        <p class="text-md text-gray-600 mb-8">
-            The page you're looking for seems to have taken a detour. Let's get you back on track.
-        </p>
-        
-        <!-- Navigation back to home -->
-        <a href="/" class="inline-flex items-center bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 mb-6">
-            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
-            Go Back Home
-        </a>
-        
-        <!-- Required Email Address -->
-        <footer class="border-t border-gray-200 pt-4 mt-6">
-            <p class="text-sm text-gray-500">
-                If you think this is a mistake, please contact: 23f3001237@ds.study.iitm.ac.in
-            </p>
-        </footer>
-    </div>
+<body>
+  <h1>404</h1>
+  <h2>Oops! Page not found</h2>
+  <p>The page you're looking for doesn't exist.</p>
+  
+  <!-- Required Email Line -->
+  <p>Contact: <!--email_off-->23f3001237@ds.study.iitm.ac.in<!--/email_off--></p>
+  
+  <!-- Link back to home -->
+  <a href="/">← Go back home</a>
 </body>
 </html>
