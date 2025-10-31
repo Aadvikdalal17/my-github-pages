@@ -4,7 +4,7 @@ A modern, responsive GitHub Pages site featuring a custom 404 error page.
 
 ## 🌐 Live Site
 
-Visit the site at: `https://YOUR_USERNAME.github.io/YOUR_REPO/`
+Visit the site at: [`https://YOUR_USERNAME.github.io/YOUR_REPO/`](https://aadvikdalal17.github.io/my-github-pages/)
 
 ## ✨ Features
 
@@ -24,8 +24,8 @@ your-repo/
 
 ## 🚀 Quick Start
 
-1. Visit the home page: `https://YOUR_USERNAME.github.io/YOUR_REPO/`
-2. Test the 404 page: `https://YOUR_USERNAME.github.io/YOUR_REPO/nonexistent-page`
+1. Visit the home page: https://aadvikdalal17.github.io/my-github-pages/
+2. Test the 404 page: [`https://YOUR_USERNAME.github.io/YOUR_REPO/nonexistent-page`](https://aadvikdalal17.github.io/nonexistent-page)
 
 ## 📧 Contact
 
